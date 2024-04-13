@@ -1,1 +1,0 @@
-puts "12 23 45 56 78 89"[gets.split*'']? :Yes: :No
