@@ -1,0 +1,14 @@
+oj t -c "go run main.go" -d ./test
+oj t -c "perl main.pl" -d ./test
+g++ main.cpp && oj t
+gcc main.c && oj t -S
+
+oj t -c "dart main.dart" -d ./test
+oj t -c "python main.py" -d ./test
+oj t -c "ruby main.rb" -d ./test
+oj t -c "java Main.java" -d ./test
+oj t -c "node main.js" -d ./test
+oj t -c 'sh -c "npx ts-node main.ts"'
+
+acc submit Main.java -- -l 4005
+acc submit main.py -- -l 
