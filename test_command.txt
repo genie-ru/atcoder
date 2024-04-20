@@ -9,6 +9,7 @@ oj t -c "ruby main.rb" -d ./test
 oj t -c "java Main.java" -d ./test
 oj t -c "node main.js" -d ./test
 oj t -c 'sh -c "npx ts-node main.ts"'
+oj t -c "php main.php" -d ./tests 
 
 acc submit Main.java -- -l 4005
 acc submit main.py -- -l 
