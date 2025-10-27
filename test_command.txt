@@ -17,3 +17,4 @@ acc submit Main.java -- -l 4005
 acc submit main.py -- -l 
 
 acc submit main.py -- --language 5055
+acc config-dir
